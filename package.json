@@ -1,0 +1,28 @@
+{
+  "name": "wappler-generate-auth-code",
+  "version": "1.1.0",
+  "description": "Wappler Server Connect extension to generate cryptographically random verification and auth codes",
+  "main": "generateCode.js",
+  "homepage": "https://www.mrcheese.co.uk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrCheeseGit/Wappler-Generate-Auth-Code-Extension.git"
+  },
+  "keywords": [
+    "wappler",
+    "server-connect",
+    "extension",
+    "auth",
+    "verification",
+    "otp",
+    "pin",
+    "token",
+    "mrcheese"
+  ],
+  "author": "Mr Cheese",
+  "license": "MIT",
+  "wappler": {
+    "module": "generateCode",
+    "version": "1.1.0"
+  }
+}

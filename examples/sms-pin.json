@@ -1,0 +1,19 @@
+{
+  "exec": {
+    "steps": [
+      {
+        "name": "authCode",
+        "module": "generateCode",
+        "action": "generate",
+        "options": {
+          "length": 6,
+          "type": "numeric"
+        },
+        "output": true,
+        "meta": [
+          { "name": "code", "type": "text" }
+        ]
+      }
+    ]
+  }
+}
