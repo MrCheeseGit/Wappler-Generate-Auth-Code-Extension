@@ -49,7 +49,7 @@ cp generateCode.hjson [YOUR_PROJECT]/extensions/server_connect/modules/
 cp generateCode.js       [YOUR_PROJECT]/lib/modules/
 ```
 
-**Quit Wappler completely and restart** after installing or updating.
+**Quit Wappler completely and restart** after installing or updating. No additional npm packages are required.
 
 The action appears under **Mr Cheese → Generate Auth Code**.
 
@@ -123,15 +123,6 @@ Generate Auth Code  →  ClickSend Send SMS  →  (optional) Database insert
 3. Store the code and expiry in your database before or after send, then verify on a separate endpoint
 
 Both extensions use **Mr Cheese** in Server Connect and need no extra npm packages.
-
----
-
-## Upgrading from Abatanado / v1.0
-
-- Module `generateCode` and action `generate` are **unchanged** — existing APIs keep working.
-- After copy + restart, the step moves from **Abatanado** to **Mr Cheese** in the action list.
-- Default length `6` and type `numeric` match the original extension.
-- v1.1 uses **crypto.randomInt** and enforces minimum length **4** (values below 4 are raised to 4).
 
 ---
 
