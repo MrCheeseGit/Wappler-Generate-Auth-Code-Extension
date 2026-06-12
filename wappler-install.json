@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "generate-auth-code",
+  "name": "Generate Auth Code",
+  "version": "1.1.0",
+  "cloneDir": "Wappler-Generate-Auth-Code-Extension",
+  "hasServerConnect": true,
+  "hasAppConnect": false,
+  "readme": "https://github.com/MrCheeseGit/Wappler-Generate-Auth-Code-Extension#installation",
+  "serverConnect": {
+    "directories": [
+      "extensions/server_connect/modules",
+      "lib/modules"
+    ],
+    "copy": [
+      { "src": "generateCode.hjson", "dest": "extensions/server_connect/modules/generateCode.hjson" },
+      { "src": "generateCode.js", "dest": "lib/modules/generateCode.js" }
+    ],
+    "notes": [
+      "Quit Wappler completely and restart."
+    ]
+  }
+}
