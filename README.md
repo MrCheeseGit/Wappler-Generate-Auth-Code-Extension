@@ -42,6 +42,12 @@ No project-specific connections or tables are baked in.
 
 ## Installation
 
+### Mr Cheese Extension Installer (recommended)
+
+This repo ships **`wappler-install.json`** at the root. Use the **[Mr Cheese Extension Installer](https://www.mrcheese.co.uk/extensions/install)** — select **Generate Auth Code**, keep **Use wappler-install.json from the repository** enabled, and run the generated script locally.
+
+### Manual install
+
 Copy into your Wappler project:
 
 ```bash
