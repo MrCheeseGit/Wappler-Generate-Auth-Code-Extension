@@ -1,0 +1,19 @@
+{
+  "exec": {
+    "steps": [
+      {
+        "name": "resetToken",
+        "module": "generateCode",
+        "action": "generate",
+        "options": {
+          "length": 32,
+          "type": "alphanumeric_mixed"
+        },
+        "output": true,
+        "meta": [
+          { "name": "code", "type": "text" }
+        ]
+      }
+    ]
+  }
+}
