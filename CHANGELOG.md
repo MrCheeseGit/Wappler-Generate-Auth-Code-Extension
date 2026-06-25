@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.4
+## 1.1.5
 
 Current release of **Generate Auth Code**. See [README](README.md) for features, installation, and usage.
 

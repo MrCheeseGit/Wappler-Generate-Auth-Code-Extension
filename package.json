@@ -1,6 +1,6 @@
 {
   "name": "wappler-generate-auth-code",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Wappler Server Connect extension to generate cryptographically random verification and auth codes",
   "main": "generateCode.js",
   "homepage": "https://www.mrcheese.co.uk",
@@ -10,6 +10,7 @@
   },
   "keywords": [
     "wappler",
+    "wappler-extension",
     "server-connect",
     "extension",
     "auth",
@@ -23,6 +24,6 @@
   "license": "SEE LICENSE IN LICENSE",
   "wappler": {
     "module": "generateCode",
-    "version": "1.1.4"
+    "version": "1.1.5"
   }
 }
