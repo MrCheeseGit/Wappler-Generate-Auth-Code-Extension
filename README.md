@@ -77,8 +77,8 @@ Run from your **Wappler project root** (the folder that contains `package.json`)
 ```bash
 git clone https://github.com/MrCheeseGit/Wappler-Generate-Auth-Code-Extension.git ../Wappler-Generate-Auth-Code-Extension
 
-cp ../Wappler-Generate-Auth-Code-Extension/generateCode.hjson extensions/server_connect/modules/
-cp ../Wappler-Generate-Auth-Code-Extension/generateCode.js lib/modules/
+cp ../Wappler-Generate-Auth-Code-Extension/server_connect/modules/generateCode.hjson extensions/server_connect/modules/
+cp ../Wappler-Generate-Auth-Code-Extension/server_connect/modules/generateCode.js lib/modules/
 ```
 
 **Quit Wappler completely and restart** after installing or updating. No additional npm packages are required.

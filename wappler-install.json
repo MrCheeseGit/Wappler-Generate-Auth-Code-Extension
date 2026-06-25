@@ -14,11 +14,11 @@
     ],
     "copy": [
       {
-        "src": "generateCode.hjson",
+        "src": "server_connect/modules/generateCode.hjson",
         "dest": "extensions/server_connect/modules/generateCode.hjson"
       },
       {
-        "src": "generateCode.js",
+        "src": "server_connect/modules/generateCode.js",
         "dest": "lib/modules/generateCode.js"
       }
     ],
